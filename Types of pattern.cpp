@@ -38,6 +38,19 @@ int main(){
 		}
 		cout<<"\n";	
 	}	
+	
+//	Draw Inverted Half Pyramid Pattern
+	
+	int n;
+	cout<<"To Draw Inverted Half Pyramid Pattern\n";
+	cout<<"Enter no. of row:";
+	cin>>n;
+	for(int i=n;i>=1;i--){
+		for(int j=1;j<=i;j++){
+			cout<<"*";
+		}
+		cout<<"\n";
+	}
 }
 
 
