@@ -51,6 +51,23 @@ int main(){
 		}
 		cout<<"\n";
 	}
+	
+//	Draw Half Pyramid 180 degree Rotation Pattern
+	
+//	int n;
+	cout<<"To Draw Half Pyramid 180 degree Rotation Pattern\n";
+	cout<<"Enter no. of row:";
+	cin>>n;
+	for(int i=1;i<=n;i++){
+			for(int j=1;j<=n;j++){
+				if(j<=n-i){
+					cout<<" ";
+				}else {
+					cout<<"*";
+				}
+		}
+		cout<<"\n";
+	}
 }
 
 
